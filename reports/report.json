@@ -1,0 +1,961 @@
+{
+    "status": "success",
+    "summary": {
+        "total_coaches": 33,
+        "total_tanks": 135,
+        "maintenance_required": 135
+    },
+    "inspection": [
+        {
+            "Coach": 1,
+            "Tank": "L1A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 1,
+            "Tank": "L1B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 1,
+            "Tank": "R1A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 1,
+            "Tank": "R1B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 2,
+            "Tank": "L2A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 2,
+            "Tank": "L2B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 2,
+            "Tank": "R2A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 2,
+            "Tank": "R2B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 3,
+            "Tank": "L3A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 3,
+            "Tank": "L3B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 3,
+            "Tank": "R3A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 3,
+            "Tank": "R3B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 4,
+            "Tank": "L4A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 4,
+            "Tank": "L4B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 4,
+            "Tank": "R4A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 4,
+            "Tank": "R4B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 5,
+            "Tank": "L5A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 5,
+            "Tank": "L5B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 5,
+            "Tank": "R5A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 5,
+            "Tank": "R5B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 6,
+            "Tank": "L6A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 6,
+            "Tank": "L6B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 6,
+            "Tank": "R6A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 6,
+            "Tank": "R6B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 7,
+            "Tank": "L7A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 7,
+            "Tank": "L7B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 7,
+            "Tank": "R7A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 7,
+            "Tank": "R7B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 8,
+            "Tank": "L8A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 8,
+            "Tank": "L8B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 8,
+            "Tank": "R8A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 8,
+            "Tank": "R8B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 9,
+            "Tank": "L9A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 9,
+            "Tank": "L9B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 9,
+            "Tank": "R9A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 9,
+            "Tank": "R9B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 10,
+            "Tank": "L10A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 10,
+            "Tank": "L10B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 10,
+            "Tank": "R10A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 10,
+            "Tank": "R10B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 11,
+            "Tank": "L11A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 11,
+            "Tank": "L11B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 11,
+            "Tank": "R11A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 11,
+            "Tank": "R11B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 12,
+            "Tank": "L12A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 12,
+            "Tank": "L12B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 12,
+            "Tank": "R12A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 12,
+            "Tank": "R12B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 13,
+            "Tank": "L13A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 13,
+            "Tank": "L13B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 13,
+            "Tank": "R13A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 13,
+            "Tank": "R13B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 14,
+            "Tank": "L14A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 14,
+            "Tank": "L14B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 14,
+            "Tank": "R14A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 14,
+            "Tank": "R14B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 15,
+            "Tank": "L15A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 15,
+            "Tank": "L15B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 15,
+            "Tank": "R15A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 15,
+            "Tank": "R15B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 16,
+            "Tank": "L16A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 16,
+            "Tank": "L16B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 16,
+            "Tank": "R16A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 16,
+            "Tank": "R16B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 17,
+            "Tank": "L17A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 17,
+            "Tank": "L17B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 17,
+            "Tank": "R17A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 17,
+            "Tank": "R17B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 18,
+            "Tank": "L18A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 18,
+            "Tank": "L18B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 18,
+            "Tank": "R18A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 18,
+            "Tank": "R18B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 19,
+            "Tank": "L19A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 19,
+            "Tank": "L19B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 19,
+            "Tank": "R19A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 19,
+            "Tank": "R19B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 20,
+            "Tank": "L20A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 20,
+            "Tank": "L20B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 20,
+            "Tank": "R20A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 20,
+            "Tank": "R20B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 21,
+            "Tank": "L21A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 21,
+            "Tank": "L21B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 21,
+            "Tank": "R21A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 21,
+            "Tank": "R21B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 22,
+            "Tank": "L22A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 22,
+            "Tank": "L22B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 22,
+            "Tank": "R22A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 22,
+            "Tank": "R22B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 23,
+            "Tank": "L23A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 23,
+            "Tank": "L23B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 23,
+            "Tank": "R23A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 23,
+            "Tank": "R23B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 24,
+            "Tank": "L24A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 24,
+            "Tank": "L24B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 24,
+            "Tank": "R24A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 24,
+            "Tank": "R24B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 25,
+            "Tank": "L25A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 25,
+            "Tank": "L25B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 25,
+            "Tank": "R25A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 25,
+            "Tank": "R25B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 26,
+            "Tank": "L26A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 26,
+            "Tank": "L26B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 26,
+            "Tank": "R26A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 26,
+            "Tank": "R26B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 27,
+            "Tank": "L27A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 27,
+            "Tank": "L27B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 27,
+            "Tank": "R27A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 27,
+            "Tank": "R27B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 28,
+            "Tank": "L28A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 28,
+            "Tank": "L28B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 28,
+            "Tank": "R28A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 28,
+            "Tank": "R28B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 29,
+            "Tank": "L29A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 29,
+            "Tank": "L29B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 29,
+            "Tank": "R29A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 29,
+            "Tank": "R29B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 30,
+            "Tank": "L30A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 30,
+            "Tank": "L30B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 30,
+            "Tank": "R30A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 30,
+            "Tank": "R30B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 31,
+            "Tank": "L31A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 31,
+            "Tank": "L31B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 31,
+            "Tank": "R31A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 31,
+            "Tank": "R31B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 32,
+            "Tank": "L32A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 32,
+            "Tank": "L32B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 32,
+            "Tank": "R32A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 32,
+            "Tank": "R32B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 33,
+            "Tank": "L33A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 33,
+            "Tank": "L33B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 33,
+            "Tank": "R33A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 33,
+            "Tank": "R33B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 34,
+            "Tank": "L34A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 34,
+            "Tank": "L34B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 34,
+            "Tank": "R34A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        }
+    ],
+    "statistics": {
+        "bio tank front": 140,
+        "Stairs": 2586,
+        "connecting_wire": 36,
+        "pipesupport": 97
+    }
+}
