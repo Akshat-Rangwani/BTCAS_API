@@ -1,9 +1,9 @@
 {
     "status": "success",
     "summary": {
-        "total_coaches": 4,
-        "total_tanks": 16,
-        "maintenance_required": 16
+        "total_coaches": 6,
+        "total_tanks": 26,
+        "maintenance_required": 26
     },
     "inspection": [
         {
@@ -117,12 +117,83 @@
             "Pipe Status": "Not Connected",
             "Surface": "Dirty",
             "Maintenance": "YES"
+        },
+        {
+            "Coach": 5,
+            "Tank": "L5A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 5,
+            "Tank": "L5B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 5,
+            "Tank": "R5A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 5,
+            "Tank": "R5B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 6,
+            "Tank": "L6A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 6,
+            "Tank": "L6B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 6,
+            "Tank": "R6A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 6,
+            "Tank": "R6B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 7,
+            "Tank": "L7A",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
+        },
+        {
+            "Coach": 7,
+            "Tank": "L7B",
+            "Pipe Status": "Not Connected",
+            "Surface": "Dirty",
+            "Maintenance": "YES"
         }
     ],
     "statistics": {
-        "bio tank front": 3,
+        "bio tank front": 4,
         "Stairs": 3,
         "connecting_wire": 2,
-        "pipesupport": 2
+        "pipesupport": 4,
+        "connected pipe": 1
     }
 }
