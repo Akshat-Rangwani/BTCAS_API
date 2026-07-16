@@ -2,38 +2,43 @@
 Coach Counter Module
 """
 
-
 class CoachCounter:
 
     def __init__(self):
 
         self.coach_count = 0
 
-    def process(self, detected_objects):
+        # Store processed connecting wire IDs
+        self.processed_tracks = set()
+
+    def process(self, result):
 
         """
-        detected_objects
-
-        Example
-
-        [
-
-        "bio tank front",
-
-        "connected pipe",
-
-        "connecting_wire"
-
-        ]
-
+        result = one YOLO Result object
         """
 
-        if "connecting_wire" in detected_objects:
+        if result.boxes is None:
+            return self.coach_count
 
-            self.coach_count += 1
+        if result.boxes.id is None:
+            return self.coach_count
 
-        elif "cbc_coupler" in detected_objects:
+        names = result.names
 
-            self.coach_count += 1
+        classes = result.boxes.cls.cpu().numpy().astype(int)
+
+        track_ids = result.boxes.id.cpu().numpy().astype(int)
+
+        for tid, cls in zip(track_ids, classes):
+
+            classname = names[cls]
+
+            if classname in ["connecting_wire", "cbc_coupler"]:
+
+                if tid not in self.processed_tracks:
+
+                    self.processed_tracks.add(tid)
+
+                    self.coach_count += 1
 
         return self.coach_count

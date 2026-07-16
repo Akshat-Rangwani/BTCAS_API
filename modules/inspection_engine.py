@@ -35,60 +35,74 @@ class InspectionEngine:
 
         results = self.detector.detect(video_path)
 
-        processed_tanks = set()
+        processed_tracks = set()
 
         for r in results:
 
             if r.boxes is None:
                 continue
 
+            if r.boxes.id is None:
+                continue
+
             names = r.names
 
             classes = r.boxes.cls.cpu().numpy().astype(int)
 
+            track_ids = r.boxes.id.cpu().numpy().astype(int)
+
             detected = [names[c] for c in classes]
 
-            # ----------------------------
-            # Update Statistics
-            # ----------------------------
+        # ----------------------------
+        # Update Statistics
+        # ----------------------------
 
-            self.statistics.update(detected)
+            self.statistics.update(r)
 
-            # ----------------------------
-            # Skip frame if no Bio Tank
-            # ----------------------------
+        # ----------------------------
+        # Find New Bio Tank
+        # ----------------------------
 
-            if "bio tank front" not in detected:
+            bio_track = None
+
+            for tid, cls in zip(track_ids, classes):
+
+                classname = names[cls]
+
+                if classname == "bio tank front":
+
+                    if tid not in processed_tracks:
+
+                        bio_track = tid
+
+                        break
+
+            if bio_track is None:
                 continue
 
-            # ----------------------------
-            # Coach Counter
-            # ----------------------------
+            processed_tracks.add(bio_track)
 
-            coach_no = self.counter.process(detected)
+        # ----------------------------
+        # Coach Counter
+        # ----------------------------
 
-            # ----------------------------
-            # Tank Assignment
-            # ----------------------------
+            coach_no = self.counter.process(r)
+
+        # ----------------------------
+        # Tank Assignment
+        # ----------------------------
 
             coach, tank = self.assigner.next_tank()
 
-            # Avoid duplicate tank IDs
-
-            if tank in processed_tanks:
-                continue
-
-            processed_tanks.add(tank)
-
-            # ----------------------------
-            # Inspection
-            # ----------------------------
+        # ----------------------------
+        # Inspection
+        # ----------------------------
 
             inspection = self.inspector.inspect(detected)
 
-            # ----------------------------
-            # Save Report
-            # ----------------------------
+        # ----------------------------
+        # Report
+        # ----------------------------
 
             self.report.add(
 
@@ -104,15 +118,11 @@ class InspectionEngine:
 
             )
 
-        # ------------------------------------
-        # DataFrame
-        # ------------------------------------
+    # ------------------------------------
+    # DataFrame
+    # ------------------------------------
 
         df = self.report.dataframe()
-
-        # ------------------------------------
-        # Summary
-        # ------------------------------------
 
         maintenance_count = 0
 
@@ -134,9 +144,7 @@ class InspectionEngine:
 
         }
 
-        # ------------------------------------
-        # Final JSON
-        # ------------------------------------
+        self.report.save_csv("reports/report.csv")
 
         final_report = {
 
@@ -144,23 +152,11 @@ class InspectionEngine:
 
             "summary": summary,
 
-            "inspection":
+            "inspection": df.to_dict(orient="records"),
 
-                df.to_dict(
-
-                    orient="records"
-
-                ),
-
-            "statistics":
-
-                self.statistics.json()
+            "statistics": self.statistics.json()
 
         }
-
-        # ------------------------------------
-        # Save JSON
-        # ------------------------------------
 
         os.makedirs("reports", exist_ok=True)
 

@@ -37,4 +37,8 @@ class BTCASDetector:
 
         )
 
-        return results
+        for r in results:
+
+            print("Track IDs :", r.boxes.id)
+
+            yield r
