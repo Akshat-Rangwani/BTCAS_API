@@ -1,0 +1,17 @@
+Coach,Tank,Pipe Status,Surface,Maintenance
+1,L1A,Not Connected,Dirty,YES
+1,L1B,Not Connected,Dirty,YES
+1,R1A,Not Connected,Dirty,YES
+1,R1B,Not Connected,Dirty,YES
+2,L2A,Not Connected,Dirty,YES
+2,L2B,Not Connected,Dirty,YES
+2,R2A,Not Connected,Dirty,YES
+2,R2B,Not Connected,Dirty,YES
+3,L3A,Not Connected,Dirty,YES
+3,L3B,Not Connected,Dirty,YES
+3,R3A,Not Connected,Dirty,YES
+3,R3B,Not Connected,Dirty,YES
+4,L4A,Not Connected,Dirty,YES
+4,L4B,Not Connected,Dirty,YES
+4,R4A,Not Connected,Dirty,YES
+4,R4B,Not Connected,Dirty,YES

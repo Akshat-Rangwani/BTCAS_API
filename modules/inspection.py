@@ -41,14 +41,9 @@ class BTCASInspection:
 
         # ------------------------
 
-        maintenance = "NO"
-
-        if pipe == "Not Connected":
-
-            maintenance = "YES"
-
-        if surface == "Dirty":
-
+        if pipe == "Connected" or surface == "Clean":
+            maintenance = "NO"
+        else:
             maintenance = "YES"
 
         return {

@@ -23,7 +23,7 @@ class BTCASDetector:
 
              source=video_path,
 
-            conf=0.40,
+            conf=0.20,
 
             imgsz=640,
 
