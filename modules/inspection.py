@@ -17,9 +17,9 @@ class BTCASInspection:
 
             pipe = "Connected"
 
-        #else:
+        else:
 
-            #pipe = "Not Connected"
+            pipe = "Not Connected"
 
         # ------------------------
 

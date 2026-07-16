@@ -16,6 +16,6 @@ OUTPUT_DIR.mkdir(exist_ok=True)
 
 REPORT_DIR.mkdir(exist_ok=True)
 
-CONFIDENCE = 0.40
+CONFIDENCE = 0.20
 
 IMAGE_SIZE = 640
